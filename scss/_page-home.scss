@@ -5,4 +5,189 @@
 /* -----------------------------------------------------------
 	.con-benefit
 ----------------------------------------------------------- */
-.con-benefit {}
+@mixin button {
+	font-size: 18px;
+	color: #fff;
+	background: $primary;
+	font-weight: 600;
+	padding: 15px 30px;
+	border-radius: 8px;
+}
+
+@mixin style-font($size, $color, $weight) {
+		font-size: $size;
+		color: $color;
+		font-weight: $weight;
+}
+
+.block-1 {
+	background: $bg_primary;
+	padding: 50px 0px;
+	display: flex;
+	align-items: center;
+	.item-block1 {
+		align-items: center;
+	}
+	.block1-left {
+		h4 {
+			@include style-font(56px, #fff, 400);
+			line-height: 84px;
+			span {
+				@include style-font(56px, $primary, 700);
+				text-decoration: underline;
+			}
+		}
+		p {
+			@include style-font(18px, #fff, 400);
+			margin: 40px 0px 55px;
+			span {
+				@include style-font(18px, $primary, 700);
+			}
+		}
+		a.btn-register {
+			text-decoration: none;
+			@include button;
+		}
+	}
+}
+
+.block-2 {
+	background: $bg_primary;
+	.block2-header {
+		h5 {
+			@include style-font(36px,#fff,600);
+			text-align: center;
+			line-height: 54px;
+			margin-bottom: 30px;
+		}
+	}
+	.block2-body {
+		.block-item {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			background: linear-gradient(107.91deg, #1A2746 22.88%, #7F283B 100%);
+			border-radius: 16px;
+			padding: 35px 0px 20px;
+			text-align: center;
+			min-height: 204px;
+			margin-bottom: 24px;
+			h6 {
+				@include style-font(16px,#fff,400);
+				line-height: 24px;
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+.block-3 {
+	background: $bg_primary;
+	.block3-header {
+		text-align: center;
+		h2 {
+			@include style-font(56px,#fff,600);
+			text-align: center;
+			line-height: 84px;
+			margin-bottom: 16px;
+		}
+		p {
+			@include style-font(16px,#fff,400);
+			line-height: 24px;
+		}
+	}
+}
+
+
+.block-4 {
+	background: $bg_primary;
+	.block4-left {
+		h3 {
+			display: inline-block;
+			@include style-font(36px,#fff,600);
+			line-height: 54px;
+			position: relative;
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				right: -50px;
+				top: 50%;
+				transform: translate(0%, -50%);
+				width: 35px;
+				height: 6px;
+				background: $primary;
+			}
+		}
+		p {
+			@include style-font(18px,#fff,400);
+			line-height: 27px;
+		}
+		ul {
+			list-style: none;
+			padding-left: 0px;
+			li {
+				@include style-font(18px,#fff,400);
+				line-height: 27px;
+				padding-left: 36px;
+				margin-bottom: 25px;
+				position: relative;
+				&::before {
+					content: "";
+					background: url('../images/tick-item.png') no-repeat;
+					position: absolute;
+					top: 50%;
+					left: 0;
+					transform: translate(0%, -50%);
+					display: block;
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
+	}
+}
+
+.block-5 {
+	background: url('../images/bg-join.png') no-repeat;
+	padding: 100px 0px  50px;
+	.block5-left {
+		h3 {
+			display: inline-block;
+			@include style-font(36px,#fff,600);
+			line-height: 54px;
+			position: relative;
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				right: -50px;
+				top: 50%;
+				transform: translate(0%, -50%);
+				width: 35px;
+				height: 6px;
+				background: $primary;
+			}
+		}
+	}
+	.block5-item {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+			margin-bottom: 24px;
+			h6 {
+				@include style-font(18px,#fff,600);
+				line-height: 27px;
+				margin-top: 20px;
+			}
+			p {
+				@include style-font(16px,#718096,400);
+				span {
+					color: $primary;
+				}
+			}
+		}
+}

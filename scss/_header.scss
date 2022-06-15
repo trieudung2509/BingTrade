@@ -5,4 +5,56 @@
 /* -----------------------------------------------------------
 	.main-header
 ----------------------------------------------------------- */
-.main-header {}
+.main-header {
+	padding: 10px;
+	background: $bg_primary;
+	&.fixed {
+		position: fixed;
+		top: 0;left: 0;
+		width: 100%;
+		background: white;
+		z-index: 9002;
+	}
+	.dropdown-toggle {
+		border: 0;
+		background: none;
+		&:after {
+			display: none;
+		}
+	}
+}
+
+.main-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 22px;
+		&:last-child {
+			a {
+				background: $primary;
+				border-radius: 8px;
+				padding: 8px 15px;
+			}
+		}
+		a {
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+			font-weight: 400;
+			font-size: 16px;
+			color: #fff;
+			text-decoration: none;
+
+			&:hover,
+			&.active {
+				color: $primary;
+			}
+			&:before {
+				content: '';
+			}
+		}
+	}
+}

@@ -3,57 +3,179 @@
 	<?php include "templates/header.php"; ?>
 
 	<div class="main-body">
-		<div class="container">
-			home
-			<i class="fas fa-address-book"></i>
-			<button class="btn btn-orange"><span>Nhận tư vấn miễn phí</span></button>
+		<div class="block-1">
+				<div class="container">
+					<div class="row item-block1">
+						<div class="col-md-7 col-12">
+								<div class="block1-left">
+										<h4>BEING <span>AN AFFILIATE</span> <br> HAS NEVER BEEN EASIER</h4>
+										<p>Become a <span>BingTrade’s Partner</span> today!</p>
+										<a class="btn btn-register">Register Now</a>
+								</div>
+						</div>
+						<div class="col-md-5 col-12">
+								<div class="block1-right">
+										<img src="/images/block1-img.png" alt="">
+								</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="block-2">
+				<div class="container">
+					<div class="row">
+							<div class="block2-header">
+								<h5>You are...</h5>
+							</div>
+					</div>
+					<div class="block2-body">
+							<div class="row">
+									<div class="col-md-4 col-12">
+											<div class="block-item">
+													<img src="images/youare-1.png" alt="">
+													<h6>Bing's customer who signed up <br> and use Bing's service</h6>
+											</div>
+									</div>
+									<div class="col-md-4 col-12">
+											<div class="block-item">
+													<img src="images/youare-2.png" alt="">
+													<h6>Content creators</h6>
+											</div>
+									</div>
+									<div class="col-md-4 col-12">
+											<div class="block-item">
+													<img src="images/youare-3.png" alt="">
+													<h6>Influencers</h6>
+											</div>
+									</div>
+									<div class="col-md-4 col-12">
+											<div class="block-item">
+													<img src="images/youare-4.png" alt="">
+													<h6>Website owners</h6>
+											</div>
+									</div>
+									<div class="col-md-4 col-12">
+											<div class="block-item">
+													<img src="images/youare-5.png" alt="">
+													<h6>Social media users who want to <br> share useful information to people</h6>
+											</div>
+									</div>
+									<div class="col-md-4 col-12">
+											<div class="block-item">
+													<img src="images/youare-6.png" alt="">
+													<h6>Advertiser</h6>
+											</div>
+									</div>
+							</div>
+					</div>
+				</div>
+		</div>
+
+		<div class="block-3">
+				<div class="container">
+						<div class="row">
+							<div class="block3-header">
+									<h2>
+										Bingtrade <br>
+										Affiliate Marketing Program
+									</h2>
+									<p>If your goal is to monetize your online traffic or followers, this affiliate marketing program is your chance to earn attractive commissions by sharing Referral Links. We'll get you started and easily track your sales and commissions. We also make sure that you always get paid on time.</p>
+							</div>
+						</div>
+				</div>
+		</div>
+
+		<div class="block-4">
+			<div class="container">
+				<div class="row">
+						<div class="col-md-6 col-12">
+								<div class="block4-left">
+										<h3>
+											Products you will promote
+										</h3>
+										<p>We provide live streaming of sports tournaments through the website bingsport.com with outstanding features such as:</p>
+										<ul>
+											<li>
+												Various sports
+											</li>
+											<li>
+												Full HD 1080p Live streaming
+											</li>
+											<li>
+												Watch the full match replay at any time
+											</li>
+											<li>
+												24/7 customer support
+											</li>
+										</ul>
+								</div>
+						</div>
+						<div class="col-md-6 col-12">
+								<div class="block4-right">
+										<img src="images/block1-img.png" alt="">
+								</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="block-5">
+			<div class="container">
+				<div class="row">
+						<div class="block5-left">
+								<h3>
+								Why join now?
+								</h3>
+						</div>
+				</div>
+				<div class="block5-body">
+						<div class="row">
+								<div class="col-md-4 col-12">
+									<div class="block5-item">
+											<img src="images/join1.png" alt="">
+											<h6>Flexible in your free time, increase <br> income as much as you like</h6>
+											<p>
+											With just a phone or laptop and no <br> working time constraints, you can actively <br> improve my income
+											</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-12">
+									<div class="block5-item">
+											<img src="images/join2.png" alt="">
+											<h6>Simple and easy to-use <br> performance analytics dashboard</h6>
+											<p>BingTrade has developed a dashboard <br> that analyzes your business metrics like <br> clicks, purchases, etc...</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-12">
+									<div class="block5-item">
+											<img src="images/join3.png" alt="">
+											<h6>Attractive commission</h6>
+											<p>Up to <span>20% commission rate </span>  for each <br> successful order. Especially, BINGTRADE <br> <span>records a lifetime</span> of subscription renewal <br> (unlimited number of renewals)</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-12">
+									<div class="block5-item">
+											<img src="images/join4.png" alt="">
+											<h6>Easy-to-sell products</h6>
+											<p>Good quality with extremely competitive <br> prices will make it easy for you to attract <br> more clicks on your referral link and get <br> successful orders</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-12">
+									<div class="block5-item">
+											<img src="images/join5.png" alt="">
+											<h6>User-friendly tool to create tracking <br> links</h6>
+											<p>We have a set of tools available to help <br> you create your own referral link in just <br> one click</p>
+									</div>
+								</div>
+								</div>
+						</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
 
 	<?php include "templates/footer.php"; ?>
-
-	<script>
-		$(function() {
-			// ======================> benefit <======================
-			// $(function() {
-			// 	var benafitSlider= $('.con-benefit .box-slider').slick({
-			// 		speed: 600,
-			// 		autoplaySpeed: 6000,
-			// 		autoplay: true,
-			// 		infinite: true,
-			// 		swipe: true,
-			// 		fade: false,
-			// 		dots: false,
-			// 		arrows: false,
-			// 		slidesToShow: 3,
-			// 		slidesToScroll: 1,
-			// 		responsive: [
-			// 			{
-			// 				breakpoint: 992,
-			// 				settings: {
-			// 					slidesToShow: 2
-			// 				}
-			// 			},
-			// 			{
-			// 				breakpoint: 768,
-			// 				settings: {
-			// 					slidesToShow: 1
-			// 				}
-			// 			}
-			// 		]
-			// 	});
-
-			// 	$('.con-benefit .slick-prev').on('click', function() {
-			// 		benafitSlider.slick('prev');
-			// 	});
-			// 	$('.con-benefit .slick-next').on('click', function() {
-			// 		benafitSlider.slick('next');
-			// 	});
-			// });
-		});
-
-	</script>
-
 </body>
 </html>
