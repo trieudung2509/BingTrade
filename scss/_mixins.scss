@@ -1,0 +1,74 @@
+// -------------------------------------- Mixins
+
+//----------------------------------------------//
+// Media query
+//----------------------------------------------//
+@mixin mq($device, $val: null, $val2: null) {
+  // min-width
+  @if $device == xxl {
+    @media only screen and (min-width: $xxl) { @content; }
+  } @else if $device == xl {
+    @media only screen and (min-width: $xl) { @content; }
+  } @else if $device == lg {
+    @media only screen and (min-width: $lg) { @content; }
+  } @else if $device == md {
+    @media only screen and (min-width: $md) { @content; }
+  } @else if $device == sm {
+    @media only screen and (min-width: $sm) { @content; }
+
+    // max-width
+  } @else if $device == max_xs {
+    @media only screen and (max-width: ($sm - 1px)) { @content; }
+  } @else if $device == max_sm {
+    @media only screen and (max-width: ($md - 1px)) { @content; }
+  } @else if $device == max_md {
+    @media only screen and (max-width: ($lg - 1px)) { @content; }
+  } @else if $device == max_lg {
+    @media only screen and (max-width: ($xl - 1px)) { @content; }
+  } @else if $device == max_xl {
+    @media only screen and (max-width: ($xxl - 1px)) { @content; }
+
+    // other
+  } @else if $device == min_w {
+    @media only screen and (min-width: $val) { @content; }
+  } @else if $device == max_w {
+    @media only screen and (max-width: $val) { @content; }
+  } @else if $device == min_max_w {
+    @media only screen and (min-width: $val) and (max-width: $val2) { @content; }
+
+    // height
+  } @else if $device == min_h {
+    @media only screen and (min-height: $val) { @content; }
+  } @else if $device == max_h {
+    @media only screen and (max-height: $val) { @content; }
+  } @else if $device == min_max_h {
+    @media only screen and (min-height: $val) and (max-height: $val2) { @content; }
+  }
+}
+
+// Example 1:
+// @include mq(sm) {} // <= 576
+// @include mq(md) {} // <= 768
+// @include mq(lg) {} // <= 992
+// @include mq(xl) {} // <= 1200
+// @include mq(xxl) {} // <= 1400
+
+// @include mq(max_xl) {} // <= 1399
+// @include mq(max_lg) {} // <= 1199
+// @include mq(max_md) {} // <= 991
+// @include mq(max_sm) {} // <= 767
+// @include mq(max_xs) {} // <= 575
+
+// Example 2:
+// // => scss
+// .text-example {
+//   @include mq(xs) {
+//     color: red;
+//   }
+// }
+// // => css
+// @media only screen and (min-width: 480px) {
+//   .text-example {
+//     color: red;
+//   }
+// }

@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+/* -----------------------------------------------------------
+	common
+----------------------------------------------------------- */
+body {
+	font-family: $font_main;
+}
+img {
+	max-width: 100%;
+}
+a,
+button,
+.btn {
+	transition: all 0.4s ease;
+}
+.over {
+	transition: all 0.4s ease;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+.list-style-none {
+	list-style: none !important;
+}
