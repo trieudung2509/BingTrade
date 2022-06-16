@@ -21,10 +21,23 @@
 }
 
 .block-1 {
-	background: $bg_primary;
-	padding: 50px 0px;
+	background: url('../images/bg-block1-img.png') no-repeat;
+	background-position: 80%;
+	padding: 85px 0px;
+	width: 100%;
+	height: auto;
+	background-color: $bg_primary;
+	background-size: contain;
 	display: flex;
 	align-items: center;
+
+	@include mq(max_md) {
+		background: $bg_primary;
+	}
+
+	@include mq(max_xs) {
+		padding: 40px 0px;
+	}
 	.item-block1 {
 		align-items: center;
 	}
@@ -32,16 +45,32 @@
 		h4 {
 			@include style-font(56px, #fff, 400);
 			line-height: 84px;
+			@include mq(max_xs) {
+				@include style-font(28px, #fff, 400);
+				line-height: 42px;
+			}
 			span {
 				@include style-font(56px, $primary, 700);
 				text-decoration: underline;
+				@include mq(max_xs) {
+					@include style-font(28px, $primary, 700);
+					line-height: 42px;
+				}
 			}
 		}
 		p {
 			@include style-font(18px, #fff, 400);
 			margin: 40px 0px 55px;
+			@include mq(max_xs) {
+				@include style-font(14px, #fff, 400);
+				line-height: 21px;
+				margin: 10px 0px 30px;
+			}
 			span {
 				@include style-font(18px, $primary, 700);
+				@include mq(max_xs) {
+					@include style-font(14px, $primary, 700);
+				}
 			}
 		}
 		a.btn-register {
@@ -49,10 +78,23 @@
 			@include button;
 		}
 	}
+	.block1-right {
+		@include mq(max_xs) {
+			margin-top: 40px;
+		}
+		img {
+			display: none;
+			@include mq(max_md) {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
 }
 
 .block-2 {
 	background: $bg_primary;
+	padding: 30px 0px;
 	.block2-header {
 		h5 {
 			@include style-font(36px,#fff,600);
@@ -73,28 +115,72 @@
 			text-align: center;
 			min-height: 204px;
 			margin-bottom: 24px;
+			transition: all 0.4s ease-in-out;
+			cursor: pointer;
+
+			@include mq(max_xs) {
+				min-height: unset;
+			}
+			&:hover {
+				transform: scale(1.1);
+			}
 			h6 {
 				@include style-font(16px,#fff,400);
 				line-height: 24px;
 				margin-top: 20px;
+				width: 85%;
 			}
 		}
 	}
 }
 
 .block-3 {
-	background: $bg_primary;
+	background: url('../images/bg-block3.png') no-repeat;
+	background-size: contain;
+	background-color: $bg_primary;
+	width: 100%;
+	height: auto;
+	padding: 180px 0px;
+	background-position: center;
+	@include mq(max_md) {
+		padding: 80px 0px;
+	}
+	@include mq(max_xs) {
+		background: url('../images/bg-mobile-block3.png') no-repeat;
+		background-color: $bg_primary;
+		background-size: cover;
+    background-position: top;
+		padding: 40px 0px 90px;
+	}
 	.block3-header {
 		text-align: center;
+		@include mq(max_xs) {
+			padding-top: 20px;
+		}
 		h2 {
 			@include style-font(56px,#fff,600);
 			text-align: center;
 			line-height: 84px;
 			margin-bottom: 16px;
+			@include mq(max_md) {
+				line-height: 54px;
+    		font-size: 36px;
+			}
+			@include mq(max_xs) {
+				line-height: 42px;
+    		font-size: 28px;
+				width: 85%;
+				margin: 0 auto;
+			}
 		}
 		p {
 			@include style-font(16px,#fff,400);
+			width: 85%;
+			margin: 0 auto;
 			line-height: 24px;
+			@include mq(max_xs) {
+				margin: 25px auto 50px;
+			}
 		}
 	}
 }
@@ -102,9 +188,14 @@
 
 .block-4 {
 	background: $bg_primary;
+	padding-top: 60px;
+	@include mq(max_xs) {
+		padding-top: 70px;
+		overflow: hidden;
+	}
 	.block4-left {
 		h3 {
-			display: inline-block;
+			display: inline;
 			@include style-font(36px,#fff,600);
 			line-height: 54px;
 			position: relative;
@@ -113,16 +204,19 @@
 				display: block;
 				position: absolute;
 				right: -50px;
-				top: 50%;
 				transform: translate(0%, -50%);
 				width: 35px;
 				height: 6px;
 				background: $primary;
+				bottom: 18px;
 			}
 		}
 		p {
 			@include style-font(18px,#fff,400);
 			line-height: 27px;
+			@include mq(max_xs) {
+				margin-top: 15px;
+			}
 		}
 		ul {
 			list-style: none;
@@ -147,11 +241,37 @@
 			}
 		}
 	}
+	.block4-right {
+		@include mq(max_xs) {
+			width: 110%;
+		}
+		img {
+			&.img-desktop {
+				margin-bottom: -135px;
+				display: block;
+				@include mq(max_xs) {
+					margin-bottom: 0px;
+					display: none;
+				}
+			}
+			&.img-mobile {
+				display: none;
+				@include mq(max_xs) {
+					display: block;
+					width: 100%;
+					margin: 0px -15px;
+				}
+			}
+		}
+	}
 }
 
 .block-5 {
-	background: url('../images/bg-join.png') no-repeat;
-	padding: 100px 0px  50px;
+	background: linear-gradient(107.91deg, #451A59 22.88%, #1A2746 67.74%, #7F283B 100%);
+	padding: 100px 0px 50px;
+	@include mq(max_xs) {
+		padding: 70px 0px 50px;
+	}
 	.block5-left {
 		h3 {
 			display: inline-block;
@@ -171,6 +291,25 @@
 			}
 		}
 	}
+	.block5-body {
+		padding-top: 50px;
+		.block5-box {
+			@include mq(max_md) {
+				display: none;
+			}
+			.item-box5 {
+				justify-content: center;
+			}
+		}
+		.col-lg-4 {
+			&:nth-child(n + 4) {
+				display: none;
+				@include mq(max_md) {
+					display: block;
+				}
+			}
+		}
+	}
 	.block5-item {
 			display: flex;
 			align-items: center;
@@ -182,9 +321,18 @@
 				@include style-font(18px,#fff,600);
 				line-height: 27px;
 				margin-top: 20px;
+				@include mq(max_xs) {
+					@include style-font(16px,#fff,600);
+					line-height: 24px;
+				}
 			}
 			p {
 				@include style-font(16px,#718096,400);
+				line-height: 24px;
+				@include mq(max_xs) {
+					@include style-font(14px,#718096,400);
+					line-height: 21px;
+				}
 				span {
 					color: $primary;
 				}

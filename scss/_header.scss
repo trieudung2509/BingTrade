@@ -28,6 +28,9 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	@include mq(max_md) {
+		display: none;
+	}
 	li {
 		display: inline-block;
 		vertical-align: middle;
@@ -37,6 +40,10 @@
 				background: $primary;
 				border-radius: 8px;
 				padding: 8px 15px;
+				&:hover,
+				&.active {
+					color: $bg_primary;
+				}
 			}
 		}
 		a {
