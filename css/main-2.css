@@ -1,0 +1,392 @@
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.footer .main-footer {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 34px 0px 42px 0px;
+}
+.footer .main-footer .footer-logo {
+  max-width: 217px;
+  height: auto;
+  object-fit: cover;
+}
+.footer .main-footer .footer-description {
+  margin-top: 14px;
+  max-width: 856px;
+  margin: 14px auto 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.footer .main-footer .contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer .main-footer .contact .website, .footer .main-footer .contact .email {
+  margin: 0;
+  padding: 0;
+}
+
+.how-to-do {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  padding: 112px 0px 92px;
+  background: linear-gradient(107.91deg, #451A59 22.88%, #1A2746 67.74%, #7F283B 100%);
+}
+.how-to-do .title-wrapper {
+  display: flex;
+  align-items: center;
+}
+.how-to-do .title-wrapper .to-do-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-right: 16px;
+}
+.how-to-do .title-wrapper .dash {
+  width: 35px;
+  height: 6px;
+  border: none;
+  background-color: #F91E4E;
+}
+.how-to-do .list-todo {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  padding: 45px 0px 64px;
+}
+.how-to-do .list-todo .todo-item {
+  width: 25%;
+  height: auto;
+  border: 1px solid green;
+}
+.how-to-do .list-todo .todo-item .todo-title {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.how-to-do .list-todo .todo-item .todo-title .number {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #F91E4E;
+  margin-right: 12px;
+  border: 1px solid #F91E4E;
+  border-radius: 50%;
+}
+.how-to-do .list-todo .todo-item .todo-title .arrow {
+  flex-grow: 1;
+  object-fit: cover;
+}
+.how-to-do .list-todo .todo-item .todo-content .label {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+  max-width: 218px;
+}
+.how-to-do .list-todo .todo-item .todo-content .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 282px;
+  color: rgba(160, 174, 192, 0.7);
+}
+.how-to-do .list-todo .todo-item .list-contact {
+  width: 100%;
+  height: auto;
+  border: 1px solid;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+.how-to-do .list-todo .todo-item .list-contact .contact-item {
+  border: 1px solid;
+  margin-right: 16px;
+}
+.how-to-do .list-todo .todo-item .list-contact .contact-item:last-child {
+  margin-right: 0;
+}
+.how-to-do .todo-control {
+  display: flex;
+  justify-content: center;
+}
+.how-to-do .todo-control button {
+  background: #F91E4E;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 11px 54px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.how-to-do .todo-control button:focus {
+  outline: none;
+}
+
+.register-block {
+  background: linear-gradient(107.91deg, #451A59 22.88%, #1A2746 67.74%, #7F283B 100%);
+  padding: 105px 0px 101px;
+  border: 1px solid red;
+}
+.register-block .title-wrapper {
+  display: flex;
+  align-items: center;
+}
+.register-block .title-wrapper .register-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.register-block .title-wrapper .dash {
+  width: 35px;
+  height: 6px;
+  border: none;
+  background-color: #F91E4E;
+}
+.register-block .register-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.register-block .register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.register-block .register-form .form-line {
+  width: 100%;
+  display: flex;
+}
+.register-block .register-form .form-line .form-item {
+  cursor: pointer;
+  width: 50%;
+  max-width: 512px;
+  margin-right: 36px;
+  height: 100px;
+}
+.register-block .register-form .form-line .form-item label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.register-block .register-form .form-line .form-item label span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.register-block .register-form .form-line .form-item label .required {
+  color: #F91E4E;
+}
+.register-block .register-form .form-line .form-item input {
+  cursor: pointer;
+  width: 100%;
+  max-width: 510px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+.register-block .register-form .form-line .form-item input:focus {
+  outline: none;
+}
+.register-block .register-form .form-line .form-item input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.register-block .register-form .promotion-block {
+  width: 100%;
+  height: auto;
+  margin-top: 48px;
+}
+.register-block .register-form .promotion-block .form-line .form-item {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.register-block .register-form .promotion-block .form-line .form-item input {
+  max-width: 1056px;
+}
+.register-block .register-form .btn-sign-up {
+  background: #F91E4E;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 80px;
+  min-width: 228px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 39px;
+}
+.register-block .register-form .btn-sign-up:focus {
+  outline: none;
+}
+
+.faq-block {
+  width: 100%;
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 104px 0px 101px;
+}
+.faq-block .title-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.faq-block .title-wrapper .faq-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-right: 16px;
+}
+.faq-block .title-wrapper .dash {
+  width: 35px;
+  height: 6px;
+  border: none;
+  background-color: #F91E4E;
+}
+.faq-block .faq-wrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border: 1px solid green;
+}
+.faq-block .faq-wrapper .faq-content {
+  min-width: 800px;
+  max-width: 800px;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible {
+  background-color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px 12px 0px;
+  border: none;
+  border-bottom: 1px solid #EDF2F7;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .collapse-title {
+  display: flex;
+  align-items: center;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .collapse-title .number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: #E2E8F0;
+  margin-right: 28px;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .collapse-title .title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  max-width: 670px;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .icon-arrow {
+  display: block;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .collapse-icon .icon-arrow-up {
+  display: none;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .active {
+  border: none;
+  padding-bottom: 0;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .problem-content {
+  max-height: 0;
+  overflow: hidden;
+  max-width: 695px;
+}
+.faq-block .faq-wrapper .faq-content .list-problem .problem-item .problem-content p {
+  padding: 16px 47px 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+}
+.faq-block .faq-wrapper .image-faq {
+  flex-grow: 1;
+  display: block;
+  max-width: 486px;
+  max-height: 486px;
+  object-fit: cover;
+  height: auto;
+}
+
+/*# sourceMappingURL=main-2.css.map */
