@@ -21,25 +21,23 @@
 }
 
 .block-1 {
-	background: url('../images/bg-block1-img.png') no-repeat;
-	background-position: 80%;
 	padding: 85px 0px;
-	width: 100%;
-	height: auto;
 	background-color: $bg_primary;
-	background-size: contain;
 	display: flex;
 	align-items: center;
-
-	@include mq(max_md) {
-		background: $bg_primary;
-	}
 
 	@include mq(max_xs) {
 		padding: 40px 0px;
 	}
 	.item-block1 {
 		align-items: center;
+		position: relative;
+		background: url('../images/bg-block1-img.png') no-repeat;
+		background-position: right;
+		background-size: contain;
+		@include mq(max_md) {
+			background: $bg_primary;
+		}
 	}
 	.block1-left {
 		h4 {
@@ -60,7 +58,7 @@
 		}
 		p {
 			@include style-font(18px, #fff, 400);
-			margin: 40px 0px 55px;
+			margin: 40px 0px 35px;
 			@include mq(max_xs) {
 				@include style-font(14px, #fff, 400);
 				line-height: 21px;
@@ -73,9 +71,57 @@
 				}
 			}
 		}
+		ul {
+			list-style: none;
+			padding-left: 0px;
+			margin-bottom: 50px;
+			@include mq(max_md) {
+				display: none;
+			}
+			li {
+				@include style-font(18px,#fff,400);
+				line-height: 27px;
+				padding-left: 36px;
+				margin-bottom: 25px;
+				position: relative;
+				&::before {
+					content: "";
+					background: url('../images/tick-item1.png') no-repeat;
+					position: absolute;
+					top: 1px;
+					left: 0;
+					display: block;
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
 		a.btn-register {
 			text-decoration: none;
 			@include button;
+		}
+	}
+	.block-upto {
+		width: 184px;
+    height: 184px;
+    background: $primary;
+    border-radius: 1000px;
+    text-align: center;
+    padding: 20px 30px;
+		position: absolute;
+		right: 0px;
+		top: -40px;
+		h5 {
+			@include style-font(16px,#fff,400);
+			line-height: 24px;
+			span {
+				@include style-font(48px,#fff,600);
+				line-height: 72px;
+				display: block;
+			}
+		}
+		@include mq(max_md) {
+			display: none;
 		}
 	}
 	.block1-right {
@@ -111,9 +157,9 @@
 			flex-direction: column;
 			background: linear-gradient(107.91deg, #1A2746 22.88%, #7F283B 100%);
 			border-radius: 16px;
-			padding: 35px 0px 20px;
+			padding: 25px 0px 20px;
 			text-align: center;
-			min-height: 204px;
+			min-height: 220px;
 			margin-bottom: 24px;
 			transition: all 0.4s ease-in-out;
 			cursor: pointer;
@@ -123,6 +169,9 @@
 			}
 			&:hover {
 				transform: scale(1.1);
+			}
+			img {
+				width: 25%;
 			}
 			h6 {
 				@include style-font(16px,#fff,400);
@@ -317,6 +366,9 @@
 			flex-direction: column;
 			text-align: center;
 			margin-bottom: 24px;
+			img {
+				width: 35%;
+			}
 			h6 {
 				@include style-font(18px,#fff,600);
 				line-height: 27px;

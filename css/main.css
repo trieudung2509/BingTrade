@@ -191,24 +191,14 @@ button,
 	.con-benefit
 ----------------------------------------------------------- */
 .block-1 {
-  background: url("../images/bg-block1-img.png") no-repeat;
-  background-position: 80%;
   padding: 85px 0px;
-  width: 100%;
-  height: auto;
   background-color: #0F172A;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-@media only screen and (max-width: 991px) {
-  .block-1 {
-    background: #0F172A;
-  }
 }
 @media only screen and (max-width: 575px) {
   .block-1 {
@@ -219,6 +209,15 @@ button,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  background: url("../images/bg-block1-img.png") no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+@media only screen and (max-width: 991px) {
+  .block-1 .item-block1 {
+    background: #0F172A;
+  }
 }
 .block-1 .block1-left h4 {
   font-size: 56px;
@@ -252,7 +251,7 @@ button,
   font-size: 18px;
   color: #fff;
   font-weight: 400;
-  margin: 40px 0px 55px;
+  margin: 40px 0px 35px;
 }
 @media only screen and (max-width: 575px) {
   .block-1 .block1-left p {
@@ -275,6 +274,35 @@ button,
     font-weight: 700;
   }
 }
+.block-1 .block1-left ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .block-1 .block1-left ul {
+    display: none;
+  }
+}
+.block-1 .block1-left ul li {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 27px;
+  padding-left: 36px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.block-1 .block1-left ul li::before {
+  content: "";
+  background: url("../images/tick-item1.png") no-repeat;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+}
 .block-1 .block1-left a.btn-register {
   text-decoration: none;
   font-size: 18px;
@@ -283,6 +311,35 @@ button,
   font-weight: 600;
   padding: 15px 30px;
   border-radius: 8px;
+}
+.block-1 .block-upto {
+  width: 184px;
+  height: 184px;
+  background: #F91E4E;
+  border-radius: 1000px;
+  text-align: center;
+  padding: 20px 30px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+}
+.block-1 .block-upto h5 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 24px;
+}
+.block-1 .block-upto h5 span {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 72px;
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .block-1 .block-upto {
+    display: none;
+  }
 }
 @media only screen and (max-width: 575px) {
   .block-1 .block1-right {
@@ -327,9 +384,9 @@ button,
           flex-direction: column;
   background: linear-gradient(107.91deg, #1A2746 22.88%, #7F283B 100%);
   border-radius: 16px;
-  padding: 35px 0px 20px;
+  padding: 25px 0px 20px;
   text-align: center;
-  min-height: 204px;
+  min-height: 220px;
   margin-bottom: 24px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -343,6 +400,9 @@ button,
 .block-2 .block2-body .block-item:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+.block-2 .block2-body .block-item img {
+  width: 25%;
 }
 .block-2 .block2-body .block-item h6 {
   font-size: 16px;
@@ -578,6 +638,9 @@ button,
           flex-direction: column;
   text-align: center;
   margin-bottom: 24px;
+}
+.block-5 .block5-item img {
+  width: 35%;
 }
 .block-5 .block5-item h6 {
   font-size: 18px;

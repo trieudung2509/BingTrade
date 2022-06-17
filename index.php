@@ -10,10 +10,21 @@
 								<div class="block1-left">
 										<h4>BEING <span>AN AFFILIATE</span> <br> HAS NEVER BEEN EASIER</h4>
 										<p>Become a <span>BingTrade’s Partner</span> today!</p>
+										<ul>
+											<li>
+												Lifetime commission if the customer continues to renew the subscription
+											</li>
+											<li>
+												Fast and easy payment via Paypal or Payoneer
+											</li>
+										</ul>
 										<a class="btn btn-register">Register Now</a>
 								</div>
 						</div>
 						<div class="col-lg-5 col-12">
+								<div class="block-upto">
+										<h5>Up to <span>20%</span> commission rate</h5>
+								</div>
 								<div class="block1-right">
 										<img src="/images/block1-img.png" alt="">
 								</div>
