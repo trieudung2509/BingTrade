@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome-all.min.css">
 		<link rel="stylesheet" type="text/css" href="css/slick.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main-2.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file://-->
