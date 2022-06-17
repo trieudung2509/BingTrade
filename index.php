@@ -195,8 +195,7 @@
 			</div>
 		</div>
 	</div>
-
-
+	<?php include "templates/home-page-2.php"; ?>
 	<?php include "templates/footer.php"; ?>
 </body>
 </html>
