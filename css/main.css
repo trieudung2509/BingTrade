@@ -190,7 +190,7 @@ button,
 /* -----------------------------------------------------------
 	.con-benefit
 ----------------------------------------------------------- */
-.block-1 {
+.block-affilate {
   padding: 85px 0px;
   background-color: #0F172A;
   display: -webkit-box;
@@ -201,11 +201,11 @@ button,
           align-items: center;
 }
 @media only screen and (max-width: 575px) {
-  .block-1 {
+  .block-affilate {
     padding: 40px 0px;
   }
 }
-.block-1 .item-block1 {
+.block-affilate .item-block1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -215,46 +215,46 @@ button,
   background-size: contain;
 }
 @media only screen and (max-width: 991px) {
-  .block-1 .item-block1 {
+  .block-affilate .item-block1 {
     background: #0F172A;
   }
 }
-.block-1 .block1-left h4 {
+.block-affilate .block1-left h4 {
   font-size: 56px;
   color: #fff;
   font-weight: 400;
   line-height: 84px;
 }
 @media only screen and (max-width: 575px) {
-  .block-1 .block1-left h4 {
+  .block-affilate .block1-left h4 {
     font-size: 28px;
     color: #fff;
     font-weight: 400;
     line-height: 42px;
   }
 }
-.block-1 .block1-left h4 span {
+.block-affilate .block1-left h4 span {
   font-size: 56px;
   color: #F91E4E;
   font-weight: 700;
   text-decoration: underline;
 }
 @media only screen and (max-width: 575px) {
-  .block-1 .block1-left h4 span {
+  .block-affilate .block1-left h4 span {
     font-size: 28px;
     color: #F91E4E;
     font-weight: 700;
     line-height: 42px;
   }
 }
-.block-1 .block1-left p {
+.block-affilate .block1-left p {
   font-size: 18px;
   color: #fff;
   font-weight: 400;
   margin: 40px 0px 35px;
 }
 @media only screen and (max-width: 575px) {
-  .block-1 .block1-left p {
+  .block-affilate .block1-left p {
     font-size: 14px;
     color: #fff;
     font-weight: 400;
@@ -262,29 +262,29 @@ button,
     margin: 10px 0px 30px;
   }
 }
-.block-1 .block1-left p span {
+.block-affilate .block1-left p span {
   font-size: 18px;
   color: #F91E4E;
   font-weight: 700;
 }
 @media only screen and (max-width: 575px) {
-  .block-1 .block1-left p span {
+  .block-affilate .block1-left p span {
     font-size: 14px;
     color: #F91E4E;
     font-weight: 700;
   }
 }
-.block-1 .block1-left ul {
+.block-affilate .block1-left ul {
   list-style: none;
   padding-left: 0px;
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 991px) {
-  .block-1 .block1-left ul {
+  .block-affilate .block1-left ul {
     display: none;
   }
 }
-.block-1 .block1-left ul li {
+.block-affilate .block1-left ul li {
   font-size: 18px;
   color: #fff;
   font-weight: 400;
@@ -293,7 +293,7 @@ button,
   margin-bottom: 25px;
   position: relative;
 }
-.block-1 .block1-left ul li::before {
+.block-affilate .block1-left ul li::before {
   content: "";
   background: url("../images/tick-item1.png") no-repeat;
   position: absolute;
@@ -303,7 +303,7 @@ button,
   width: 24px;
   height: 24px;
 }
-.block-1 .block1-left a.btn-register {
+.block-affilate .block1-left a.btn-register {
   text-decoration: none;
   font-size: 18px;
   color: #fff;
@@ -312,7 +312,7 @@ button,
   padding: 15px 30px;
   border-radius: 8px;
 }
-.block-1 .block-upto {
+.block-affilate .block-upto {
   width: 184px;
   height: 184px;
   background: #F91E4E;
@@ -323,13 +323,13 @@ button,
   right: 0px;
   top: -40px;
 }
-.block-1 .block-upto h5 {
+.block-affilate .block-upto h5 {
   font-size: 16px;
   color: #fff;
   font-weight: 400;
   line-height: 24px;
 }
-.block-1 .block-upto h5 span {
+.block-affilate .block-upto h5 span {
   font-size: 48px;
   color: #fff;
   font-weight: 600;
@@ -337,30 +337,30 @@ button,
   display: block;
 }
 @media only screen and (max-width: 991px) {
-  .block-1 .block-upto {
+  .block-affilate .block-upto {
     display: none;
   }
 }
 @media only screen and (max-width: 575px) {
-  .block-1 .block1-right {
+  .block-affilate .block1-right {
     margin-top: 40px;
   }
 }
-.block-1 .block1-right img {
+.block-affilate .block1-right img {
   display: none;
 }
 @media only screen and (max-width: 991px) {
-  .block-1 .block1-right img {
+  .block-affilate .block1-right img {
     display: block;
     margin: 0 auto;
   }
 }
 
-.block-2 {
+.block-youare {
   background: #0F172A;
   padding: 30px 0px;
 }
-.block-2 .block2-header h5 {
+.block-youare .block2-header h5 {
   font-size: 36px;
   color: #fff;
   font-weight: 600;
@@ -368,7 +368,8 @@ button,
   line-height: 54px;
   margin-bottom: 30px;
 }
-.block-2 .block2-body .block-item {
+.block-youare .block2-body .block-item {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,8 +383,6 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: linear-gradient(107.91deg, #1A2746 22.88%, #7F283B 100%);
-  border-radius: 16px;
   padding: 25px 0px 20px;
   text-align: center;
   min-height: 220px;
@@ -392,28 +391,42 @@ button,
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
+.block-youare .block2-body .block-item::before {
+  background: linear-gradient(107.91deg, #1A2746 22.88%, #7F283B 100%);
+  border-radius: 16px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.25;
+}
 @media only screen and (max-width: 575px) {
-  .block-2 .block2-body .block-item {
+  .block-youare .block2-body .block-item {
     min-height: unset;
   }
 }
-.block-2 .block2-body .block-item:hover {
+.block-youare .block2-body .block-item:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.block-2 .block2-body .block-item img {
+.block-youare .block2-body .block-item img {
   width: 25%;
+  z-index: 10;
 }
-.block-2 .block2-body .block-item h6 {
+.block-youare .block2-body .block-item h6 {
   font-size: 16px;
   color: #fff;
   font-weight: 400;
   line-height: 24px;
   margin-top: 20px;
   width: 85%;
+  z-index: 10;
 }
 
-.block-3 {
+.block-marketing {
   background: url("../images/bg-block3.png") no-repeat;
   background-size: contain;
   background-color: #0F172A;
@@ -423,12 +436,12 @@ button,
   background-position: center;
 }
 @media only screen and (max-width: 991px) {
-  .block-3 {
+  .block-marketing {
     padding: 80px 0px;
   }
 }
 @media only screen and (max-width: 575px) {
-  .block-3 {
+  .block-marketing {
     background: url("../images/bg-mobile-block3.png") no-repeat;
     background-color: #0F172A;
     background-size: cover;
@@ -436,15 +449,15 @@ button,
     padding: 40px 0px 90px;
   }
 }
-.block-3 .block3-header {
+.block-marketing .block3-header {
   text-align: center;
 }
 @media only screen and (max-width: 575px) {
-  .block-3 .block3-header {
+  .block-marketing .block3-header {
     padding-top: 20px;
   }
 }
-.block-3 .block3-header h2 {
+.block-marketing .block3-header h2 {
   font-size: 56px;
   color: #fff;
   font-weight: 600;
@@ -453,20 +466,20 @@ button,
   margin-bottom: 16px;
 }
 @media only screen and (max-width: 991px) {
-  .block-3 .block3-header h2 {
+  .block-marketing .block3-header h2 {
     line-height: 54px;
     font-size: 36px;
   }
 }
 @media only screen and (max-width: 575px) {
-  .block-3 .block3-header h2 {
+  .block-marketing .block3-header h2 {
     line-height: 42px;
     font-size: 28px;
     width: 85%;
     margin: 0 auto;
   }
 }
-.block-3 .block3-header p {
+.block-marketing .block3-header p {
   font-size: 16px;
   color: #fff;
   font-weight: 400;
@@ -475,22 +488,22 @@ button,
   line-height: 24px;
 }
 @media only screen and (max-width: 575px) {
-  .block-3 .block3-header p {
+  .block-marketing .block3-header p {
     margin: 25px auto 50px;
   }
 }
 
-.block-4 {
+.block-promote {
   background: #0F172A;
   padding-top: 60px;
 }
 @media only screen and (max-width: 575px) {
-  .block-4 {
+  .block-promote {
     padding-top: 70px;
     overflow: hidden;
   }
 }
-.block-4 .block4-left h3 {
+.block-promote .block4-left h3 {
   display: inline;
   font-size: 36px;
   color: #fff;
@@ -498,7 +511,7 @@ button,
   line-height: 54px;
   position: relative;
 }
-.block-4 .block4-left h3::after {
+.block-promote .block4-left h3::after {
   content: "";
   display: block;
   position: absolute;
@@ -510,22 +523,22 @@ button,
   background: #F91E4E;
   bottom: 18px;
 }
-.block-4 .block4-left p {
+.block-promote .block4-left p {
   font-size: 18px;
   color: #fff;
   font-weight: 400;
   line-height: 27px;
 }
 @media only screen and (max-width: 575px) {
-  .block-4 .block4-left p {
+  .block-promote .block4-left p {
     margin-top: 15px;
   }
 }
-.block-4 .block4-left ul {
+.block-promote .block4-left ul {
   list-style: none;
   padding-left: 0px;
 }
-.block-4 .block4-left ul li {
+.block-promote .block4-left ul li {
   font-size: 18px;
   color: #fff;
   font-weight: 400;
@@ -534,7 +547,7 @@ button,
   margin-bottom: 25px;
   position: relative;
 }
-.block-4 .block4-left ul li::before {
+.block-promote .block4-left ul li::before {
   content: "";
   background: url("../images/tick-item.png") no-repeat;
   position: absolute;
@@ -547,41 +560,41 @@ button,
   height: 24px;
 }
 @media only screen and (max-width: 575px) {
-  .block-4 .block4-right {
+  .block-promote .block4-right {
     width: 110%;
   }
 }
-.block-4 .block4-right img.img-desktop {
+.block-promote .block4-right img.img-desktop {
   margin-bottom: -135px;
   display: block;
 }
 @media only screen and (max-width: 575px) {
-  .block-4 .block4-right img.img-desktop {
+  .block-promote .block4-right img.img-desktop {
     margin-bottom: 0px;
     display: none;
   }
 }
-.block-4 .block4-right img.img-mobile {
+.block-promote .block4-right img.img-mobile {
   display: none;
 }
 @media only screen and (max-width: 575px) {
-  .block-4 .block4-right img.img-mobile {
+  .block-promote .block4-right img.img-mobile {
     display: block;
     width: 100%;
     margin: 0px -15px;
   }
 }
 
-.block-5 {
+.block-join {
   background: linear-gradient(107.91deg, #451A59 22.88%, #1A2746 67.74%, #7F283B 100%);
   padding: 100px 0px 50px;
 }
 @media only screen and (max-width: 575px) {
-  .block-5 {
+  .block-join {
     padding: 70px 0px 50px;
   }
 }
-.block-5 .block5-left h3 {
+.block-join .block5-left h3 {
   display: inline-block;
   font-size: 36px;
   color: #fff;
@@ -589,7 +602,7 @@ button,
   line-height: 54px;
   position: relative;
 }
-.block-5 .block5-left h3::after {
+.block-join .block5-left h3::after {
   content: "";
   display: block;
   position: absolute;
@@ -601,28 +614,28 @@ button,
   height: 6px;
   background: #F91E4E;
 }
-.block-5 .block5-body {
+.block-join .block5-body {
   padding-top: 50px;
 }
 @media only screen and (max-width: 991px) {
-  .block-5 .block5-body .block5-box {
+  .block-join .block5-body .block5-box {
     display: none;
   }
 }
-.block-5 .block5-body .block5-box .item-box5 {
+.block-join .block5-body .block5-box .item-box5 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.block-5 .block5-body .col-lg-4:nth-child(n+4) {
+.block-join .block5-body .col-lg-4:nth-child(n+4) {
   display: none;
 }
 @media only screen and (max-width: 991px) {
-  .block-5 .block5-body .col-lg-4:nth-child(n+4) {
+  .block-join .block5-body .col-lg-4:nth-child(n+4) {
     display: block;
   }
 }
-.block-5 .block5-item {
+.block-join .block5-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -639,10 +652,10 @@ button,
   text-align: center;
   margin-bottom: 24px;
 }
-.block-5 .block5-item img {
+.block-join .block5-item img {
   width: 35%;
 }
-.block-5 .block5-item h6 {
+.block-join .block5-item h6 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
@@ -650,27 +663,27 @@ button,
   margin-top: 20px;
 }
 @media only screen and (max-width: 575px) {
-  .block-5 .block5-item h6 {
+  .block-join .block5-item h6 {
     font-size: 16px;
     color: #fff;
     font-weight: 600;
     line-height: 24px;
   }
 }
-.block-5 .block5-item p {
+.block-join .block5-item p {
   font-size: 16px;
   color: #718096;
   font-weight: 400;
   line-height: 24px;
 }
 @media only screen and (max-width: 575px) {
-  .block-5 .block5-item p {
+  .block-join .block5-item p {
     font-size: 14px;
     color: #718096;
     font-weight: 400;
     line-height: 21px;
   }
 }
-.block-5 .block5-item p span {
+.block-join .block5-item p span {
   color: #F91E4E;
 }

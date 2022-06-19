@@ -3,7 +3,7 @@
 	<?php include "templates/header.php"; ?>
 
 	<div class="main-body">
-		<div class="block-1">
+		<div class="block-affilate">
 				<div class="container">
 					<div class="row item-block1">
 						<div class="col-lg-7 col-12">
@@ -33,7 +33,7 @@
 			</div>
 		</div>
 
-		<div class="block-2">
+		<div class="block-youare">
 				<div class="container">
 					<div class="row">
 							<div class="block2-header">
@@ -83,7 +83,7 @@
 				</div>
 		</div>
 
-		<div class="block-3">
+		<div class="block-marketing">
 				<div class="container">
 						<div class="row">
 							<div class="block3-header">
@@ -97,7 +97,7 @@
 				</div>
 		</div>
 
-		<div class="block-4">
+		<div class="block-promote">
 			<div class="container">
 				<div class="row">
 						<div class="col-md-6 col-12">
@@ -134,7 +134,7 @@
 			</div>
 		</div>
 
-		<div class="block-5">
+		<div class="block-join">
 			<div class="container">
 				<div class="row">
 						<div class="block5-left">
