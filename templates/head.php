@@ -11,7 +11,6 @@
 		<!-- STYLESHEET -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome-all.min.css">
-		<link rel="stylesheet" type="text/css" href="css/slick.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/main-2.css">
 

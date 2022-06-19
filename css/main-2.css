@@ -16,7 +16,8 @@
 .footer .main-footer .footer-logo {
   max-width: 217px;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .footer .main-footer .footer-description {
   margin-top: 14px;
@@ -55,8 +56,12 @@
   font-weight: 600;
   font-size: 36px;
   line-height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #FFFFFF;
   margin-right: 16px;
 }
@@ -74,8 +79,11 @@
 }
 .how-to-do .list-todo {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 45px 0px 64px;
 }
 .how-to-do .list-todo .todo-item {
@@ -88,8 +96,12 @@
 }
 .how-to-do .list-todo .todo-item .todo-title {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 24px;
 }
 .how-to-do .list-todo .todo-item .todo-title .number {
@@ -97,9 +109,15 @@
   max-width: 52px;
   min-height: 52px;
   max-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -118,8 +136,11 @@
   }
 }
 .how-to-do .list-todo .todo-item .todo-title .arrow {
-  flex-grow: 1;
-  object-fit: cover;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media only screen and (max-width: 991px) {
   .how-to-do .list-todo .todo-item .todo-title .arrow {
@@ -128,6 +149,8 @@
 }
 @media only screen and (max-width: 991px) {
   .how-to-do .list-todo .todo-item .todo-title {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     margin-bottom: 0;
     display: inline-block;
@@ -161,14 +184,21 @@
 }
 @media only screen and (max-width: 991px) {
   .how-to-do .list-todo .todo-item .todo-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 100%;
   }
 }
 .how-to-do .list-todo .todo-item .list-contact {
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   margin: 0;
@@ -189,6 +219,8 @@
     width: 100%;
     padding-right: 0;
     margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .how-to-do .list-todo .todo-item:last-child {
@@ -201,8 +233,12 @@
   }
 }
 .how-to-do .todo-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .how-to-do .todo-control button {
   background: #F91E4E;
@@ -246,8 +282,12 @@
   font-size: 36px;
   line-height: 54px;
   color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 16px;
 }
 @media only screen and (max-width: 991px) {
@@ -292,14 +332,22 @@
 }
 .register-block .register-form {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .register-block .register-form .form-line {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 16px;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .register-block .register-form .form-line .form-item {
   cursor: pointer;
@@ -335,6 +383,30 @@
 }
 .register-block .register-form .form-line .form-item input:focus {
   outline: none;
+}
+.register-block .register-form .form-line .form-item input::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.register-block .register-form .form-line .form-item input::-moz-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.register-block .register-form .form-line .form-item input:-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.register-block .register-form .form-line .form-item input::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 .register-block .register-form .form-line .form-item input::placeholder {
   font-style: normal;
@@ -403,8 +475,12 @@
   padding: 104px 0px 101px;
 }
 .faq-block .title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 25px;
 }
 .faq-block .title-wrapper .faq-title {
@@ -430,6 +506,8 @@
   background-color: #F91E4E;
 }
 .faq-block .faq-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: auto;
@@ -445,16 +523,26 @@
   border: none;
   text-align: left;
   outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 12px 16px 12px 0px;
   border: none;
   border-bottom: 1px solid rgba(237, 242, 247, 0.1);
 }
 .faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .collapse-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .faq-block .faq-wrapper .faq-content .list-problem .problem-item .collapsible .collapse-title .number {
   font-style: normal;
@@ -540,11 +628,14 @@
   }
 }
 .faq-block .faq-wrapper .image-faq {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: block;
   max-width: 486px;
   max-height: 486px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: auto;
 }
 @media only screen and (max-width: 991px) {
@@ -557,5 +648,3 @@
     padding: 44px 0px 60px;
   }
 }
-
-/*# sourceMappingURL=main-2.css.map */
