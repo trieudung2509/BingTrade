@@ -96,9 +96,22 @@
       width: 25%;
       height: auto;
       padding-right: 10px;
-      &:last-child {
-        padding-right: 0;
+      transition: all 1.5s ease-in-out;
+
+      &:nth-child(2) {
+        opacity: 0;
+        transition-delay: 0.5s;
       }
+      &:nth-child(3) {
+        opacity: 0;
+        transition-delay: 1s;
+      }
+      &:nth-child(4) {
+        padding-right: 0;
+        opacity: 0;
+        transition-delay: 2s;
+      }
+
       .todo-title {
         width: 100%;
         display: flex;
@@ -245,6 +258,30 @@
   }
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s all ease-in-out
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+  .todo-item  {
+
+    &:nth-child(2) {
+      opacity: 1;
+    }
+    &:nth-child(3) {
+      opacity: 1;
+    }
+    &:nth-child(4) {
+      opacity: 1;
+    }
+
+  }
+}
 .register-block {
   background: linear-gradient(107.91deg, #451A59 22.88%, #1A2746 67.74%, #7F283B 100%);
   padding: 105px 0px 101px;
