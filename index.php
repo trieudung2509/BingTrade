@@ -15,7 +15,7 @@
 												Lifetime commission if the customer continues to renew the subscription
 											</li>
 											<li>
-												Fast and easy payment via Paypal or Payoneer
+												Fast and easy payment via <img src="/images/paypal.png" /> or <img src="/images/payoneer.png" />
 											</li>
 										</ul>
 										<a class="btn btn-register">Register Now</a>

@@ -190,6 +190,28 @@ button,
 /* -----------------------------------------------------------
 	.con-benefit
 ----------------------------------------------------------- */
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .block-affilate {
   padding: 85px 0px;
   background-color: #0F172A;
@@ -322,6 +344,8 @@ button,
   position: absolute;
   right: 0px;
   top: -40px;
+  -webkit-animation: flickerAnimation 1s infinite;
+  animation: flickerAnimation 1s infinite;
 }
 .block-affilate .block-upto h5 {
   font-size: 16px;

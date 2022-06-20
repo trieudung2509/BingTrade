@@ -5,6 +5,28 @@
 /* -----------------------------------------------------------
 	.con-benefit
 ----------------------------------------------------------- */
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
 @mixin button {
 	font-size: 18px;
 	color: #fff;
@@ -111,6 +133,10 @@
 		position: absolute;
 		right: 0px;
 		top: -40px;
+		-webkit-animation: flickerAnimation 1s infinite;
+		-moz-animation: flickerAnimation 1s infinite;
+		-o-animation: flickerAnimation 1s infinite;
+		 animation: flickerAnimation 1s infinite;
 		h5 {
 			@include style-font(16px,#fff,400);
 			line-height: 24px;
