@@ -1,5 +1,5 @@
  <!-- to do block -->
- <div class="how-to-do">
+ <div class="how-to-do reveal">
     <div class="container">
       <div class="title-wrapper">
         <h2 class="to-do-title"><span>How to do </span> <span class="dash"></span></h2>
@@ -103,7 +103,7 @@
           </div>
           <div class="form-item">
             <label>
-              <span>Company Website</span>
+              <span>Gender</span>
               <br />
               <input type="text" value="" name="" placeholder="www.yourdomain.com" />
             </label>
@@ -115,7 +115,7 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>Full Name</span>
+              <span>Email</span>
               <span class="required">(*)</span>
               <br />
               <input type="text" value="" name="" placeholder="Full name" />
@@ -123,7 +123,7 @@
           </div>
           <div class="form-item">
             <label>
-              <span>Company Website</span>
+              <span>Password</span>
               <br />
               <input type="text" value="" name="" placeholder="www.yourdomain.com" />
             </label>
@@ -135,7 +135,7 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>Full Name</span>
+              <span>Confirm password</span>
               <span class="required">(*)</span>
               <br />
               <input type="text" value="" name="" placeholder="Full name" />
@@ -143,7 +143,7 @@
           </div>
           <div class="form-item">
             <label>
-              <span>Company Website</span>
+              <span>Phone number</span>
               <br />
               <input type="text" value="" name="" placeholder="www.yourdomain.com" />
             </label>
@@ -155,7 +155,7 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>Full Name</span>
+              <span>Company website</span>
               <span class="required">(*)</span>
               <br />
               <input type="text" value="" name="" placeholder="Full name" />
@@ -163,7 +163,7 @@
           </div>
           <div class="form-item">
             <label>
-              <span>Company Website</span>
+              <span>Country</span>
               <br />
               <input type="text" value="" name="" placeholder="www.yourdomain.com" />
             </label>
@@ -175,7 +175,7 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>Full Name</span>
+              <span>City</span>
               <span class="required">(*)</span>
               <br />
               <input type="text" value="" name="" placeholder="Full name" />
@@ -183,7 +183,7 @@
           </div>
           <div class="form-item">
             <label>
-              <span>Company Website</span>
+              <span>Address</span>
               <br />
               <input type="text" value="" name="" placeholder="www.yourdomain.com" />
             </label>
@@ -334,4 +334,21 @@
       const element = document.getElementById(`${id}-content`)
       window.scrollTo(0, element.offsetTop - item.offsetHeight);
     }
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+  }
+
+   window.addEventListener("scroll", reveal);
   </script>
