@@ -205,7 +205,7 @@
               </label>
             </div>
           </div>
-          <button class="btn-sign-up">Sign up</button>
+          <button class="btn-sign-up" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign up</button>
         </div>
         <!-- end promotional block -->
         </form>
