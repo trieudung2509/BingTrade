@@ -103,7 +103,7 @@
           </div>
           <div class="form-item">
             <label>
-              <span>Gender</span>
+              <span>Company Website</span>
               <br />
               <input type="text" value="" name="" placeholder="www.yourdomain.com" />
             </label>
@@ -118,14 +118,15 @@
               <span>Email</span>
               <span class="required">(*)</span>
               <br />
-              <input type="text" value="" name="" placeholder="Full name" />
+              <input type="email" value="" name="" placeholder="Email" />
             </label>
           </div>
           <div class="form-item">
             <label>
-              <span>Password</span>
+              <span>Country</span>
+              <span class="required">(*)</span>
               <br />
-              <input type="text" value="" name="" placeholder="www.yourdomain.com" />
+              <input type="text" value="" name="" placeholder="select country" />
             </label>
           </div>
         </div>
@@ -135,17 +136,17 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>Confirm password</span>
+              <span>Password</span>
               <span class="required">(*)</span>
               <br />
-              <input type="text" value="" name="" placeholder="Full name" />
+              <input type="password" value="" name="" placeholder="Password" />
             </label>
           </div>
           <div class="form-item">
             <label>
-              <span>Phone number</span>
+              <span>Address</span>
               <br />
-              <input type="text" value="" name="" placeholder="www.yourdomain.com" />
+              <input type="text" value="" name="" placeholder="Address" />
             </label>
           </div>
         </div>
@@ -155,17 +156,17 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>Company website</span>
+              <span>Confirm Password</span>
               <span class="required">(*)</span>
               <br />
-              <input type="text" value="" name="" placeholder="Full name" />
+              <input type="password" value="" name="" placeholder="Confirm Password" />
             </label>
           </div>
           <div class="form-item">
             <label>
-              <span>Country</span>
+              <span>City</span>
               <br />
-              <input type="text" value="" name="" placeholder="www.yourdomain.com" />
+              <input type="text" value="" name="" placeholder="City" />
             </label>
           </div>
         </div>
@@ -175,17 +176,9 @@
         <div class="form-line">
           <div class="form-item">
             <label>
-              <span>City</span>
-              <span class="required">(*)</span>
+              <span>Phone Number</span>
               <br />
-              <input type="text" value="" name="" placeholder="Full name" />
-            </label>
-          </div>
-          <div class="form-item">
-            <label>
-              <span>Address</span>
-              <br />
-              <input type="text" value="" name="" placeholder="www.yourdomain.com" />
+              <input type="text" value="" name="" placeholder="Phone Number" />
             </label>
           </div>
           <!-- end line 5 -->
