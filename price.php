@@ -243,22 +243,567 @@
 
     <div class="price-list-step-wrapper">
       <div class="container">
+
+        <!--  START CHOOSE LIST PLAN -->
         <div class="price-list-step-content">
           <div class="step-wrapper">
             <span class="number">1</span>
             <div class="step-content">
               <h3 class="step-title">Choose your BingSport plan</h3>
               <p class="description">
-                Your plan renews automatically. You can <span class="hightlight">stop automatic renewal</span> at any time.
+                Your plan renews automatically. You can <span class="hightlight">stop automatic renewal</span> at any
+                time.
               </p>
             </div>
           </div>
+
+          <div class="list-match-plan">
+            <div class="plan-item">
+              <div class="plan-item-content">
+                <h4 class="plan-title">1 Months</h4>
+                <div class="price-wrapper">
+                  <div class="top-price">
+                    <span class="prev-price">$10.99</span>
+                    <span class="save-label">Save 5%</span>
+                  </div>
+                  <div class="primary-price">
+                    <div class="left-content">
+                      <span class="sign">$</span>
+                      <span class="price">4</span>
+                      <span class="month">/mo</span>
+                    </div>
+                    <div class="plan-btn-block">
+                      <button class="btn-select-plan">Upgrade</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="plan-description">
+                  <span class="icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7281 21.9137C11.8388 21.9715 11.9627 22.0009 12.0865 22C12.2103 21.999 12.3331 21.9686 12.4449 21.9097L16.0128 20.0025C17.0245 19.4631 17.8168 18.8601 18.435 18.1579C19.779 16.6282 20.5129 14.6758 20.4998 12.6626L20.4575 6.02198C20.4535 5.25711 19.9511 4.57461 19.2082 4.32652L12.5707 2.09956C12.1711 1.96424 11.7331 1.96718 11.3405 2.10643L4.72824 4.41281C3.9893 4.67071 3.496 5.35811 3.50002 6.12397L3.54231 12.7597C3.5554 14.7758 4.31448 16.7194 5.68062 18.2335C6.3048 18.9258 7.10415 19.52 8.12699 20.0505L11.7281 21.9137ZM10.7836 14.1089C10.9326 14.2521 11.1259 14.3227 11.3192 14.3207C11.5125 14.3198 11.7047 14.2472 11.8517 14.1021L15.7508 10.2581C16.0438 9.96882 16.0408 9.50401 15.7448 9.21866C15.4478 8.9333 14.9696 8.93526 14.6766 9.22454L11.3081 12.5449L9.92885 11.2191C9.63186 10.9337 9.15467 10.9367 8.8607 11.226C8.56774 11.5152 8.57076 11.98 8.86775 12.2654L10.7836 14.1089Z"
+                        fill="#10B981" />
+                    </svg>
+                  </span>
+                  <span class="content">30-day money-back guarantee</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="plan-item active">
+              <div class="plan-item-content">
+                <h4 class="plan-title">
+                  12 <span class="highlight"> + 3 Months Free</span>
+                </h4>
+                <div class="price-wrapper">
+                  <div class="top-price">
+                    <span class="prev-price">$10.99</span>
+                    <span class="save-label">Save 10%</span>
+                  </div>
+                  <div class="primary-price">
+                    <div class="left-content">
+                      <span class="sign">$</span>
+                      <span class="price">3.5</span>
+                      <span class="month">/mo</span>
+                    </div>
+                    <div class="plan-btn-block">
+                      <button class="btn-select-plan">Upgrade</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="plan-description">
+                  <span class="icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7281 21.9137C11.8388 21.9715 11.9627 22.0009 12.0865 22C12.2103 21.999 12.3331 21.9686 12.4449 21.9097L16.0128 20.0025C17.0245 19.4631 17.8168 18.8601 18.435 18.1579C19.779 16.6282 20.5129 14.6758 20.4998 12.6626L20.4575 6.02198C20.4535 5.25711 19.9511 4.57461 19.2082 4.32652L12.5707 2.09956C12.1711 1.96424 11.7331 1.96718 11.3405 2.10643L4.72824 4.41281C3.9893 4.67071 3.496 5.35811 3.50002 6.12397L3.54231 12.7597C3.5554 14.7758 4.31448 16.7194 5.68062 18.2335C6.3048 18.9258 7.10415 19.52 8.12699 20.0505L11.7281 21.9137ZM10.7836 14.1089C10.9326 14.2521 11.1259 14.3227 11.3192 14.3207C11.5125 14.3198 11.7047 14.2472 11.8517 14.1021L15.7508 10.2581C16.0438 9.96882 16.0408 9.50401 15.7448 9.21866C15.4478 8.9333 14.9696 8.93526 14.6766 9.22454L11.3081 12.5449L9.92885 11.2191C9.63186 10.9337 9.15467 10.9367 8.8607 11.226C8.56774 11.5152 8.57076 11.98 8.86775 12.2654L10.7836 14.1089Z"
+                        fill="#10B981" />
+                    </svg>
+                  </span>
+                  <span class="content">30-day money-back guarantee</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="plan-item">
+              <div class="plan-item-content">
+                <h4 class="plan-title">6 Months</h4>
+                <div class="price-wrapper">
+
+                  <div class="top-price">
+                    <span class="prev-price">$10.99</span>
+                    <span class="save-label">Save 15%</span>
+                  </div>
+                  <div class="primary-price">
+                    <div class="left-content">
+                      <span class="sign">$</span>
+                      <span class="price">3</span>
+                      <span class="month">/mo</span>
+                    </div>
+                    <div class="plan-btn-block">
+                      <button class="btn-select-plan">Upgrade</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="plan-description">
+                  <span class="icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7281 21.9137C11.8388 21.9715 11.9627 22.0009 12.0865 22C12.2103 21.999 12.3331 21.9686 12.4449 21.9097L16.0128 20.0025C17.0245 19.4631 17.8168 18.8601 18.435 18.1579C19.779 16.6282 20.5129 14.6758 20.4998 12.6626L20.4575 6.02198C20.4535 5.25711 19.9511 4.57461 19.2082 4.32652L12.5707 2.09956C12.1711 1.96424 11.7331 1.96718 11.3405 2.10643L4.72824 4.41281C3.9893 4.67071 3.496 5.35811 3.50002 6.12397L3.54231 12.7597C3.5554 14.7758 4.31448 16.7194 5.68062 18.2335C6.3048 18.9258 7.10415 19.52 8.12699 20.0505L11.7281 21.9137ZM10.7836 14.1089C10.9326 14.2521 11.1259 14.3227 11.3192 14.3207C11.5125 14.3198 11.7047 14.2472 11.8517 14.1021L15.7508 10.2581C16.0438 9.96882 16.0408 9.50401 15.7448 9.21866C15.4478 8.9333 14.9696 8.93526 14.6766 9.22454L11.3081 12.5449L9.92885 11.2191C9.63186 10.9337 9.15467 10.9367 8.8607 11.226C8.56774 11.5152 8.57076 11.98 8.86775 12.2654L10.7836 14.1089Z"
+                        fill="#10B981" />
+                    </svg>
+                  </span>
+                  <span class="content">30-day money-back guarantee</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <!--  END CHOOSE LIST PLAN -->
+
+        <!-- START CREATE YOUR ACCOUNT -->
+        <div class="create-your-account-wrapper">
+          <div class="step-wrapper">
+            <span class="number">2</span>
+            <div class="step-content">
+              <h3 class="step-title">Create your account</h3>
+            </div>
+          </div>
+
+          <div class="create-account-form-wrapper">
+            <div class="create-account-form">
+              <div class="enter-coupon-code-wrapper">
+                <div class="input-coupon-code-wrapper">
+                  <label class="form-item">
+                    <span>Email:</span>
+                    <input type="text" name="" value="" placeholder="Enter your email" />
+                  </label>
+
+                  <label class="form-item">
+                    <span>Password</span>
+                    <input type="text" name="" value="" placeholder="Enter password" />
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="create-by-viva-account">
+              <div class="viva-wrapper">
+                <span class="label">Sign up via</span>
+                <ul class="list-viva">
+                  <li>
+                    <a href="#">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="16" fill="#1877F2" />
+                        <path
+                          d="M14.0217 23.3333L14.0007 16.6667H11.334V14H14.0007V12.3333C14.0007 9.85907 15.5329 8.66667 17.7401 8.66667C18.7974 8.66667 19.706 8.74539 19.9708 8.78057V11.3663L18.44 11.367C17.2396 11.367 17.0072 11.9374 17.0072 12.7745V14H20.5007L19.1673 16.6667H17.0072V23.3333H14.0217Z"
+                          fill="white" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="16" fill="#E43E2B" />
+                        <g clip-path="url(#clip0_2205_21957)">
+                          <path
+                            d="M23.6721 14.5453H16.0355V17.818H20.3635C19.6721 20 17.9635 20.7273 16.0008 20.7273C15.2404 20.7283 14.4911 20.5458 13.8163 20.1953C13.1415 19.8449 12.5612 19.3369 12.1247 18.7144C11.6881 18.0919 11.4081 17.3732 11.3085 16.6194C11.2089 15.8656 11.2925 15.0989 11.5524 14.3844C11.8122 13.6698 12.2406 13.0285 12.8012 12.5148C13.3617 12.0011 14.0379 11.6302 14.7724 11.4335C15.5069 11.2369 16.278 11.2203 17.0202 11.3852C17.7625 11.55 18.454 11.8915 19.0361 12.3807L21.4141 10.114C20.4563 9.23235 19.2978 8.59775 18.0392 8.26529C16.7806 7.93282 15.4598 7.91254 14.1915 8.20618C12.9233 8.49983 11.7458 9.09854 10.7614 9.95036C9.77698 10.8022 9.0153 11.8814 8.54246 13.0943C8.06962 14.3072 7.89992 15.6171 8.04808 16.9105C8.19623 18.2038 8.65778 19.4415 9.39265 20.516C10.1275 21.5906 11.1135 22.4696 12.2651 23.0767C13.4167 23.6838 14.699 24.0008 16.0008 24C20.4121 24 24.4008 21.0907 23.6721 14.5453Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2205_21957">
+                            <rect width="16" height="16" fill="white" transform="translate(8 8)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="16" fill="black" />
+                        <g clip-path="url(#clip0_2205_21951)">
+                          <path
+                            d="M20.46 17.032C20.4594 16.4307 20.5994 15.8375 20.8689 15.3C21.1383 14.7624 21.5298 14.2953 22.012 13.936C22.0546 13.9026 22.0899 13.8609 22.1159 13.8135C22.1419 13.766 22.158 13.7138 22.1632 13.66C22.1685 13.6061 22.1627 13.5518 22.1464 13.5002C22.13 13.4487 22.1033 13.401 22.068 13.36C21.7029 12.9548 21.2611 12.626 20.7681 12.3926C20.2751 12.1591 19.7408 12.0257 19.196 12C17.844 11.872 16.556 12.8 15.868 12.8C15.18 12.8 14.06 12 12.94 12C12.1987 12.0232 11.4762 12.2389 10.8435 12.6261C10.2109 13.0132 9.68997 13.5584 9.33199 14.208C7.79599 16.88 8.93999 20.8 10.396 22.992C11.124 24.048 11.996 25.24 13.148 25.2C14.3 25.16 14.668 24.488 16.004 24.488C17.34 24.488 17.716 25.2 18.884 25.176C20.052 25.152 20.86 24.096 21.596 23.04C22.0476 22.3757 22.4157 21.6583 22.692 20.904C22.7248 20.8141 22.7242 20.7154 22.6905 20.6259C22.6567 20.5363 22.592 20.4619 22.508 20.416C21.8894 20.0936 21.3713 19.6075 21.0102 19.0108C20.649 18.414 20.4587 17.7295 20.46 17.032Z"
+                            fill="white" />
+                          <path
+                            d="M18.3967 9.73599C18.9815 9.03966 19.3241 8.17204 19.3727 7.26399C19.3751 7.20333 19.3637 7.14291 19.3394 7.08731C19.315 7.03171 19.2783 6.98238 19.232 6.94306C19.1858 6.90375 19.1312 6.87548 19.0724 6.86039C19.0136 6.8453 18.9521 6.8438 18.8927 6.85599C18.0223 7.05589 17.2363 7.52304 16.6447 8.19199C16.057 8.86058 15.7056 9.70393 15.6447 10.592C15.6432 10.6487 15.6539 10.7051 15.676 10.7574C15.698 10.8097 15.7309 10.8567 15.7726 10.8953C15.8142 10.9339 15.8635 10.9632 15.9173 10.9812C15.9712 10.9993 16.0282 11.0057 16.0847 11C16.9879 10.8875 17.8144 10.4356 18.3967 9.73599Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2205_21951">
+                            <rect width="19.2" height="19.2" fill="white" transform="translate(6.39648 6.39999)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END CREATE YOUR ACCOUNT -->
+
+
+        <!-- START CHOOSE YOUR METHOD OF PAYMENT -->
+        <div class="choose-method-payment-wrapper">
+          <div class="step-wrapper">
+            <span class="number">3</span>
+            <div class="step-content">
+              <h3 class="step-title">Choose your method of payment</h3>
+            </div>
+          </div>
+
+          <div class="choose-payment-type-wrapper">
+            <div id="choose-payment-type-tabs">
+              <ul class="list-payment-type">
+                <li>
+                  <a href="#tabs-1" class="payment-type-item">
+                    <div class="checked-box">
+                      <span class="icon-checked">
+
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect x="1" y="1" width="22" height="22" rx="11" fill="#F91E4E" />
+                          <g clip-path="url(#clip0_304_729)">
+                            <path d="M7.33325 12L10.6666 15.3333L17.3333 8.66663" stroke="white" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_304_729">
+                              <rect width="16" height="16" fill="white" transform="translate(4 4)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+
+                      </span>
+                    </div>
+                    <div class="payment-info">
+                      <h5 class="payment-title">Credit Card</h5>
+                      <div class="list-payment">
+                        <div class="payment-item">
+                          <img class="image-payment-credit" src="./images/payment-image-1.png" alt="" />
+                        </div>
+                        <div class="payment-item">
+                          <img class="image-payment-visa" src="./images/payment-image-2.png" alt="" />
+                        </div>
+                        <div class="payment-item">
+                          <img class="image-payment-jcb" src="./images/payment-image-3.png" alt="" />
+                        </div>
+                        <div class="payment-item">
+                          <img class="image-payment-union" src="./images/payment-image-4.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#tabs-2" class="payment-type-item">
+                    <div class="checked-box">
+                      <span class="checked">
+                        <span class="icon-checked">
+
+
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="22" height="22" rx="11" fill="#F91E4E" />
+                            <g clip-path="url(#clip0_304_729)">
+                              <path d="M7.33325 12L10.6666 15.3333L17.3333 8.66663" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_304_729">
+                                <rect width="16" height="16" fill="white" transform="translate(4 4)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+
+
+                        </span>
+                      </span>
+                    </div>
+                    <div class="payment-info">
+                      <h5 class="payment-title">Paypal</h5>
+                      <div class="list-payment">
+                        <div class="payment-item">
+                          <img class="image-payment-paypal" src="./images/payment-image-5.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#tabs-3" class="payment-type-item non-efundable-tab">
+                    <div class="checked-box">
+                      <span class="checked">
+                        <span class="icon-checked">
+
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="22" height="22" rx="11" fill="#F91E4E" />
+                            <g clip-path="url(#clip0_304_729)">
+                              <path d="M7.33325 12L10.6666 15.3333L17.3333 8.66663" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_304_729">
+                                <rect width="16" height="16" fill="white" transform="translate(4 4)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="payment-info">
+                      <h5 class="payment-title">Non Refundable</h5>
+                      <div class="list-payment">
+                        <div class="payment-item">
+                          <img class="image-payment-paypal" src="./images/payment-image-6.png" alt="" />
+                        </div>
+                        <div class="payment-item">
+                          <img class="image-payment-paypal" src="./images/payment-image-7.png" alt="" />
+                        </div>
+                        <div class="payment-item">
+                          <img class="image-payment-paypal" src="./images/payment-image-8.png" alt="" />
+                        </div>
+                        <div class="payment-item">
+                          <img class="image-payment-paypal" src="./images/payment-image-9.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <div id="tabs-1"></div>
+              <div id="tabs-2"></div>
+              <div id="tabs-3">
+                <div class="non-efundable-content-tab">
+                  <h4 class="title">
+                    <span class="highlight">Select</span> a cryptocurrency to
+                    pay:
+                  </h4>
+                  <div class="list-chain">
+                    <div class="chain-item">
+                      <h4 class="chain-title">BNB Chain</h4>
+                      <div class="list-chain-box">
+                        <div class="chain-box-item active">
+                          <img src="./images/payment-image-8.png" class="chain-image" alt="" />
+                          <span class="chain-name">BNB</span>
+                        </div>
+                        <div class="chain-box-item">
+                          <img src="./images/payment-image-9.png" class="chain-image" alt="" />
+                          <span class="chain-name">USDT</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chain-item">
+                      <h4 class="chain-title">ETH Chain</h4>
+                      <div class="list-chain-box">
+                        <div class="chain-box-item">
+                          <img src="./images/payment-image-7.png" class="chain-image" alt="" />
+                          <span class="chain-name">ETH</span>
+                        </div>
+                        <div class="chain-box-item">
+                          <img src="./images/payment-image-9.png" class="chain-image" alt="" />
+                          <span class="chain-name">USDT</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chain-item">
+                      <h4 class="chain-title">BTC Chain</h4>
+                      <div class="list-chain-box">
+                        <div class="chain-box-item">
+                          <img src="./images/payment-image-6.png" class="chain-image" alt="" />
+                          <span class="chain-name">BTC</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- START CHOOSE YOUR METHOD OF PAYMENT -->
+
+        <!-- START PAYMENT DETAIL -->
+        <div class="payment-detail-wrapper">
+          <div class="table-payment-detail-wrapper">
+            <div class="payment-table-detail">
+              <div class="table-row">
+                <span class="title">6 months</span>
+                <span class="value">
+                  <span class="text-gray text-through-line">$75</span>
+                  <span class="text-strong">$18</span>
+                </span>
+              </div>
+              <div class="table-row">
+                <span class="title">Fee payment</span>
+                <span class="value">
+                  <span class="text-strong">$3</span>
+                </span>
+              </div>
+
+              <div class="table-row">
+                <span class="title">
+                  <span>Total</span>
+                </span>
+                <span class="value">
+                  <span class="text-total">$20</span>
+                </span>
+              </div>
+            </div>
+            <span class="have-coupon-code-txt">Have coupon code?</span>
+          </div>
+
+          <div class="term-of-service-wrapper">
+            <button class="btn-subscribe">Subscribe Now</button>
+            <p class="description mr-24"> By proceeding, you agree to our <a href="#" class="txt-hightlight">Terms of
+                Service</a> and <a href="#" class="txt-hightlight">Privacy Policy.</a></p>
+            <p class="description mb-none">Your plan renews automatically. You can <a href="#" class="txt-default">stop
+                automatic renewal</a> at any time.</p>
+          </div>
+        </div>
+        <!-- END PAYMENT DETAIL -->
       </div>
     </div>
+       <!-- START LIST CHANNEL -->
+       <div class="list-channel-wrapper">
+        <div class="container">
+          <div class="list-channel-content">
+            <h3 class="title">244 channels available in your area</h3>
+            <p class="description">Not your home location? Update the ZIP code above</p>
+            <div class="search-form">
+              <span class="icon">
 
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11.7669" cy="11.7669" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M18.0186 18.4854L21.5426 22.0003" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+
+              </span>
+
+              <input type="text" name="" placeholder="Search for a channel by name" class="input-search">
+            </div>
+
+            <div class="list-sport-wrapper">
+            <ul class="list-sport">
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-1.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-2.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-3.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-4.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-5.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-6.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-7.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-8.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-9.png" alt="" />
+                </a>
+              </li>
+              </li>
+            </ul>
+            <ul class="list-sport">
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-1.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-2.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-3.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-4.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-5.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-6.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-7.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-8.png" alt="" />
+                </a>
+              </li>
+              <li class="sport-item">
+                <a href="#">
+                  <img src="./images/sport-league-9.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- END LIST CHANNEL -->
   </div>
   <?php include "templates/footer.php"; ?>
+
+  <script>
+  $(function() {
+    $("#choose-payment-type-tabs").tabs({
+      active: 1,
+    });
+  });
+  </script>
 </body>
 
 </html>

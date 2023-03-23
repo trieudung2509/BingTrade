@@ -58,8 +58,7 @@
       </li>
     </ul>
         <p class="footer-description">
-          BingTrade is an affiliate program promoting service packages of Bingsport - one of the leading platforms on
-          live sports services offering the greatest live coverage of over 1000 sports
+        Bingsport is the world’s only sports-focused live TV streaming service with top leagues and teams.
         </p>
         <div class="contact">
           <p class="website">Website: Bingsport.com</p>
@@ -72,6 +71,7 @@
 
 <!-- JAVASCRIPT-->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>

@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #0F172A;
 }
 .footer .main-footer {
   text-align: center;
@@ -20,7 +20,7 @@
 }
 .footer .main-footer .footer-description {
   margin-top: 14px;
-  max-width: 856px;
+  max-width: 685px;
   margin: 14px auto 16px;
   text-align: center;
   font-style: normal;
