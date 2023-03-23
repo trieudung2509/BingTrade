@@ -114,7 +114,7 @@ button,
 	.main-header
 ----------------------------------------------------------- */
 .main-header {
-  padding: 10px;
+  padding: 10px 0px;
   background: #0F172A;
 }
 .main-header.fixed {
@@ -150,8 +150,8 @@ button,
   }
 }
 .main-nav li {
-  display: inline-block;
-  vertical-align: middle;
+  /* display: inline-block;
+  vertical-align: middle; */
   margin-left: 22px;
 }
 .main-nav li:last-child a {
@@ -163,8 +163,6 @@ button,
   color: #0F172A;
 }
 .main-nav li a {
-  display: inline-block;
-  vertical-align: middle;
   position: relative;
   font-weight: 400;
   font-size: 16px;

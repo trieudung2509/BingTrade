@@ -126,7 +126,7 @@ button,
 	.main-header
 ----------------------------------------------------------- */
 .main-header {
-  padding: 10px;
+  padding: 10px 0px;
   background: #0F172A;
 }
 .main-header.fixed {
@@ -169,8 +169,6 @@ button,
   color: #0F172A;
 }
 .main-nav li a {
-  display: inline-block;
-  vertical-align: middle;
   position: relative;
   font-weight: 400;
   font-size: 16px;
