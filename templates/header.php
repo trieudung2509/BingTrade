@@ -3,7 +3,7 @@
 		<div class="row g-0 justify-content-between align-items-center">
 			<div class="col-auto col-logo">
 				<a href="#" class="logo">
-					<img src="images/logo.png" alt="Bing trade">
+					<img src="images/logo.png" alt="Bing trade" class="logo">
 				</a>
 			</div>
 			<div class="col-auto col-nav">
