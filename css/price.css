@@ -1,0 +1,224 @@
+.page-price-wrapper {
+  width: 100%;
+  height: auto;
+}
+.page-price-wrapper .price-banner-wrapper {
+  width: 100%;
+  height: 430px;
+  background-image: url("../images/banner-price-pc.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper {
+    background-image: url("../images/banner-price-mb.png");
+    height: 550px;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(15, 23, 42, 0.8);
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 80px 0px 32px;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content-wrapper {
+    padding: 16px 0px;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content .banner-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content .banner-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content .list-benefit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content .list-benefit {
+    gap: 0;
+    justify-content: flex-start;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item {
+  width: calc((100% - 72px) / 4);
+  height: auto;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background: rgba(255, 255, 255, 0.05);
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item {
+    width: 100%;
+    margin-bottom: 16px;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .icon {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .icon {
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .benefit-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 991px) {
+  .page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .benefit-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #ffffff;
+  }
+}
+.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .active {
+  font-style: normal;
+  color: #fdc400;
+  font-weight: 600;
+}
+
+.price-list-step-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: rgb(15, 23, 42);
+  border: 1px solid red;
+  color: #fff;
+  padding: 48px 0px 64px;
+}
+@media only screen and (max-width: 991px) {
+  .price-list-step-wrapper {
+    padding: 40px 0px 48px;
+  }
+}
+.price-list-step-wrapper .step-wrapper {
+  width: 100%;
+  border: 1px solid;
+  display: flex;
+  justify-content: flex-start;
+}
+.price-list-step-wrapper .step-wrapper .number {
+  min-width: 36px;
+  max-width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .price-list-step-wrapper .step-wrapper .number {
+    min-width: 32px;
+    max-width: 32px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 12px;
+  }
+}
+.price-list-step-wrapper .step-wrapper .step-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.price-list-step-wrapper .step-wrapper .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  /* #FFFFFF */
+  color: #ffffff;
+  margin-top: 8px;
+  margin: 0;
+  padding: 0;
+}
+.price-list-step-wrapper .step-wrapper .hightlight {
+  color: rgb(249, 30, 78);
+}
+
+/*# sourceMappingURL=price.css.map */
