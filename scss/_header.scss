@@ -110,7 +110,7 @@
       color: #ffffff;
       &:hover,
       &.active {
-				border-top: 3px solid rgba(249, 30, 78, 1);
+        border-top: 3px solid rgba(249, 30, 78, 1);
         &:before {
           opacity: 0.25;
           width: 100%;
@@ -133,22 +133,50 @@
     }
   }
 
-	.user-avatar {
-		max-width: max-content;
-		width: 122px;
-		height: 56px;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		cursor: pointer;
+  .user-avatar {
+    max-width: max-content;
+    width: 122px;
+    height: 56px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
 
-		img {
-			min-width: 32px;
-			max-width: 32px;
-			height: 32px;
-			object-fit: cover;
-		}
-	}
+    img {
+      min-width: 32px;
+      max-width: 32px;
+      height: 32px;
+      object-fit: cover;
+    }
+  }
+
+  @include mq(max_md) {
+    background-color: #0f172a !important;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-top: 60px;
+    margin: 0 !important;
+    flex-direction: column;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    align-items: center;
+
+    li {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 0 !important;
+      margin-bottom: 24px !important;
+
+      a {
+        padding: 12px 0px !important;
+      }
+    }
+  }
 }
 
 /* -----------------------------------------------------------
@@ -241,5 +269,17 @@
       }
     }
   }
+}
 
+.offcanvas-body {
+  @include mq(max_md) {
+    padding: 0 !important;
+    background-color: #0f172a;
+  }
+}
+
+.offcanvas-header {
+  @include mq(max_md) {
+    padding: 0 !important;
+  }
 }
